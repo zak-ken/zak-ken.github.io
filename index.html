@@ -1,26 +1,149 @@
 <!DOCTYPE html>
-
-
-
 <html lang="en">
-  <head>
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <title>Login</title>
-  </head>
+<head>
+	<meta charset="utf-8" name="Zak" content="DigitalPortfolio">
+	<title>Zak</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="stylesheets/main.css" />
+  <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
 
-  <body>
-    <div class="jumbotron">
-      <h1>Welcome!</h1>
+<body data-spy="scroll" data-target="#my-navbar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </div>
+	<div id="main">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  	<nav class="navbar navbar-default navbar-fixed-top" id="my-navbar">
+  		<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img alt="ZK" src="images/favicon.ico"></a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+
+                <li class="dropdown-header">Desktop</li>
+								<li><a href="#">MatPlotLib Image Generator</a></li>
+                <li role="separator" class="divider"></li>
+
+                <li class="dropdown-header">Web</li>
+								<li><a href="#">Weather Forecast App</a></li>
+								<li><a href="#tribute-page">Tribute Page</a></li>
+                <li role="separator" class="divider"></li>
+
+                <li class="dropdown-header">Mobile</li>
+								<li><a href="#flip-crash-app">Loot Hunter</a></li>
+
+              </ul>
+            </li>
+            <li><a href="#interestingfacts">Facts About Zak</a></li>
+            <li><a href="#favourites">Favourite Platforms</a></li>
+          </ul>
+
+
+        </div>
+
+  		</div>
+  	</nav>
+
+  	<div class="jumbotron" id="top">
+  		<div class="container text-center" id="top-text">
+				<h1 class="asap-font" id="my-name">Zakariyah</h1>
+				<h2 class="asap-font" id="my-roll">Python Developer</h2>
+					<p id="my-intro">
+						Welcome to my digital portfolio. This is where I share a little bit about myself and a few of the things I enjoyed working on :).
+					</p>
+
+					<div class="btn-group buffer">
+					<center>
+						<a href="https://www.codewars.com/users/zak777" class="btn btn-lg btn-info outline" target="_blank" id="se"><i class="fas fa-radiation"></i> CodeWars</a>
+						<a href="https://github.com/zak-ken" class="btn btn-lg btn-success outline" target="_blank" id="github"><i class="fab fa-github-square"></i> GitHub</a>
+					</center>
+					</div>
+
+				<br><br>
+  		</div>
+  	</div>
+
+  	<div class="container scroll-buffer" id="funfacts">
+
+			<div class="page-header">
+				<div class="my-image" id="image"><img src="images/ent.jpg" alt="Profile Picture" class="img-circle pull-center col-xs-2 col-md-1" id=""/></div>
+				<h2>Fun Facts<br><small>Here's some fun(not really) facts about me.</small></h2>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>A few things I started off with</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h3>First Coding Experience</h3>
+
+					<hr>
 
 
 
+				</div>
+			</div>
+
+
+			<div class="container">
+					<div class="page-header">
+						<h2>Projects<br><small>Here are some of the things that I have created so far.<br></small></h2>
+					</div>
+
+			</div>
+
+			<div class="container scroll-buffer" id="favourites">
+				<section>
+							<br>
+							<h2>Favourite frameworks and platforms<br><small>These are in order so my favourite favourites are at the top.</small></h2>
+							<hr>
+				</section>
+			</div>
+
+			<footer>
+				<hr>
+				<center>
+				<h1>Thanks for Reading :D.</h1>
+						<ul class="list-inline">
+							<li><a href="https://www.codewars.com/users/zak777">CodeWars</a></li>
+							<li><a href="https://github.com/zak-ken">GitHub</a></li>
+						</ul>
+				</center>
+			</footer>
+
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135208947-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-135208947-1');
+	</script>
+
+</body>
 </html>
